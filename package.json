@@ -1,0 +1,21 @@
+{
+  "name": "random-num-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Korbinian-iu/random-num-gen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Korbinian-iu/random-num-gen/issues"
+  },
+  "homepage": "https://github.com/Korbinian-iu/random-num-gen#readme"
+}
