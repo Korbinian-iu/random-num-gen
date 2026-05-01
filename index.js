@@ -2,3 +2,4 @@ const min =1;
 const max =100;
 const randomNum = Math.floor(Math.random() * (max-min + 1)) + min;
 console.log(`Deine Zufallszahl zwischen${min} und ${max} ist : ${randomNum}`);
+console.log("Programm beendet, neustart für weitere Zahl");
