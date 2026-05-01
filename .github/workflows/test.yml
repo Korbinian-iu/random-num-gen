@@ -1,6 +1,6 @@
 name: JS Test Workflow
 
-on:[push]
+on: [push]
 
 job:
 	check-code:
