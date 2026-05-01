@@ -4,15 +4,15 @@ on: [push]
 
 jobs:
   check-code:
-    runs-on: ubuntu-latest #nutzt virtuellen Linux-Server von Github
+    runs-on: ubuntu-latest # nutzt virtuellen Linux-Server von Github
     steps:
-    -name: Code auschecken
-    uses: actions/checkout@v4 #kopiert meinen Code auf Server
+      - name: Code auschecken
+        uses: actions/checkout@v4 # kopiert meinen Code auf Server
 
-    -name: Node.js installieren
-    uses: actions/setup-node@v4
-    with:
-      node-version: '20'
+      - name: Node.js installieren
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-    -name: Test ausführen
-    run: npm test #führt Befehl aus package.json aus
+      - name: Test ausführen
+        run: npm test # führt Befehl aus package.json aus
